@@ -27,7 +27,7 @@ Okay, enough blabbing. Lets get straight into how to setup Frida and run a basic
 **Install Frida**
 
 ```css
-    $pip install frida
+    	$pip install frida
 	$pip install frida-tools    
 ```
 
@@ -44,7 +44,7 @@ If you were using a real mobile device for the test, you might want to download 
 ```
 Rename it however you want (or don’t), I’ll name mine “frida-server”
 ```
-    $mv frida-server-15.1.17-android-x86 frida-server
+	$mv frida-server-15.1.17-android-x86 frida-server
 ```
 4. Go to your ADB path
 ```css
@@ -52,11 +52,11 @@ Rename it however you want (or don’t), I’ll name mine “frida-server”
 ```
 5. Push the file to the device
 ```css
-    $./adb push /home/ash/tools/frida-server /data/local/tmp
+	$./adb push /home/ash/tools/frida-server /data/local/tmp
 ```
 6. Change the permission of the file:
 ```css
-    $./adb shell "chmod 755 /data/local/tmp/frida-server"
+	$./adb shell "chmod 755 /data/local/tmp/frida-server"
 ```
 7. Open a new adb shell
 ```css
