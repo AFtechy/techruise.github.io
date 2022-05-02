@@ -1,4 +1,10 @@
-**Downloading the FridaLab APK on Genymotion: Challenges Solved!**
+---
+layout: post
+title:  "Downloading the FridaLab APK on Genymotion: Challenges Solved!"
+date:   2022-05-02 20:13:58 +0300
+categories: Android Pentesting
+---
+
 1. Go to [Rossmarks' Blog](https://rossmarks.uk/blog/fridalab/) and download the `FridaLab.apk`
 2. Drag the apk from downloads to the Genymotion device.
 Note that it requires you to perform some challenges before you can be able to access the app.
